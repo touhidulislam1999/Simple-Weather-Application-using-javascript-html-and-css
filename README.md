@@ -30,7 +30,8 @@ Powered by the **OpenWeatherMap API**.
 
 ## 📸 Preview  
 
-![Weather App Screenshot](https://via.placeholder.com/800x400.png?text=Weather+App+Preview)
+![Weather App Screenshot](https://github.com/touhidulislam1999/Simple-Weather-Application-using-javascript-html-and-css/blob/main/Dhaka.jpg)
+![Weather App Screenshot](https://github.com/touhidulislam1999/Simple-Weather-Application-using-javascript-html-and-css/blob/main/Texas.jpg)
 
 ---
 
