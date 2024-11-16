@@ -10,7 +10,7 @@ body {
   font-size: 120%;
   background: #222;
   background-size: cover;
-  background-image: url("https://drive.google.com/thumbnail?id=1qUOh4FYVAQ-ZyC2Bno6W9nX-LSQySEly&sz=w1920");
+  background-image: url("https://drive.google.com/thumbnail?id=1qUOh4FYVAQ-ZyC2Bno6W9nX-LSQySEly&sz=w1920"); /* Got the background image directly form my google drive. If you want to use just replace the part after 'id=' then put your file ID there and declear the size of it*/
 }
 
 .card {
