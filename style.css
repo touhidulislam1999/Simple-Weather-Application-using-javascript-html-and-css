@@ -1,89 +1,90 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  font-family: "PT Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 120%;
-  background: #222;
-  background-size: cover;
-  background-image: url("https://drive.google.com/thumbnail?id=1qUOh4FYVAQ-ZyC2Bno6W9nX-LSQySEly&sz=w1920"); /* Got the background image directly form my google drive. If you want to use just replace the part after 'id=' then put your file ID there and declear the size of it*/
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default body margin */
+  font-family: "PT Serif", serif; /* Set font style */
+  font-weight: 400; /* Set font weight to normal */
+  font-style: normal; /* Set font style to normal */
+  font-size: 120%; /* Increase base font size */
+  background: #222; /* Fallback background color */
+  background-size: cover; /* Ensure the background image covers the entire area */
+  background-image: url("https://drive.google.com/thumbnail?id=1qUOh4FYVAQ-ZyC2Bno6W9nX-LSQySEly&sz=w1920"); 
+  /* Set background image from Google Drive using the file ID */
 }
 
 .card {
-  background: #000000d0;
-  color: white;
-  padding: 2em;
-  border-radius: 30px;
-  width: 100%;
-  max-width: 420px;
-  margin: 1em;
+  background: #000000d0; /* Semi-transparent black background */
+  color: white; /* Text color */
+  padding: 2em; /* Add padding inside the card */
+  border-radius: 30px; /* Rounded corners */
+  width: 100%; /* Take full width available */
+  max-width: 420px; /* Set a maximum width for the card */
+  margin: 1em; /* Add margin around the card */
 }
 
 .search {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
 }
 
 button {
-  margin: 0.5em;
-  border-radius: 50%;
-  border: none;
-  height: 44px;
-  width: 44px;
-  outline: none;
-  background: #7c7c7c2b;
-  color: white;
-  cursor: pointer;
-  transition: 0.2s ease-in-out;
+  margin: 0.5em; /* Space around the button */
+  border-radius: 50%; /* Circular button */
+  border: none; /* Remove default border */
+  height: 44px; /* Set button height */
+  width: 44px; /* Set button width */
+  outline: none; /* Remove focus outline */
+  background: #7c7c7c2b; /* Semi-transparent gray background */
+  color: white; /* Text color */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: 0.2s ease-in-out; /* Smooth background change on hover */
 }
 
 input.search-bar {
-  border: none;
-  outline: none;
-  padding: 0.4em 1em;
-  border-radius: 24px;
-  background: #7c7c7c2b;
-  color: white;
-  font-family: inherit;
-  font-size: 105%;
-  width: calc(100% - 100px);
+  border: none; /* Remove border */
+  outline: none; /* Remove focus outline */
+  padding: 0.4em 1em; /* Add padding inside the input */
+  border-radius: 24px; /* Rounded corners */
+  background: #7c7c7c2b; /* Semi-transparent gray background */
+  color: white; /* Text color */
+  font-family: inherit; /* Inherit font style from parent */
+  font-size: 105%; /* Slightly increase font size */
+  width: calc(100% - 100px); /* Input width, adjusted for button size */
 }
 
 button:hover {
-  background: #7c7c7c6b;
+  background: #7c7c7c6b; /* Darker gray background on hover */
 }
 
 h1.temp {
-  margin: 0;
-  margin-bottom: 0.4em;
+  margin: 0; /* Remove default margin */
+  margin-bottom: 0.4em; /* Add space below the temperature heading */
 }
 
 .flex {
-  display: flex;
-  align-items: center;
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
 }
 
 .description {
-  text-transform: capitalize;
-  margin-left: 8px;
+  text-transform: capitalize; /* Capitalize first letter of each word */
+  margin-left: 8px; /* Add space to the left of the description */
 }
 
 .weather.loading {
-  visibility: hidden;
-  max-height: 20px;
-  position: relative;
+  visibility: hidden; /* Initially hide the weather container */
+  max-height: 20px; /* Restrict maximum height */
+  position: relative; /* Set relative positioning for pseudo-element */
 }
 
 .weather.loading:after {
-  visibility: visible;
-  content: "Loading...";
-  color: white;
-  position: absolute;
-  top: 0;
-  left: 20px;
+  visibility: visible; /* Make loading text visible */
+  content: "Loading..."; /* Display "Loading..." text */
+  color: white; /* Text color */
+  position: absolute; /* Position relative to the parent */
+  top: 0; /* Align to the top */
+  left: 20px; /* Add space to the left */
 }
