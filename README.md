@@ -3,7 +3,7 @@
 **A sleek and interactive web application for real-time weather updates.**  
 The Weather App is a lightweight and intuitive web application designed to provide real-time weather updates for any city worldwide. It is built with HTML, CSS, and JavaScript, and leverages the OpenWeatherMap API to fetch and display weather information in a user-friendly interface.
 
-With its responsive design and simple functionality, the app ensures a seamless experience across devices. Users can quickly check the temperature, weather conditions, humidity, and wind speed, all presented in a visually appealing layout.
+With its responsive design and minimalistic functionality, the app ensures a seamless experience across devices. Users can quickly check the temperature, weather conditions, humidity, and wind speed, all presented in a visually appealing layout.
 
 This project serves as a foundation for further enhancements, such as dynamic backgrounds, weather forecasts, and geolocation features, making it an excellent starting point for beginners exploring API integration and web development.
 Powered by the **OpenWeatherMap API**.
